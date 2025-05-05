@@ -1,0 +1,54 @@
+.air-power-container {
+  width: 100%; /* Take full width of parent */
+  box-sizing: border-box; /* Include padding in width */
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #f0f4f8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 15px 0 0 0 ;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Make it stretch full width of container */
+}
+
+.large-button {
+  font-size: 1.5rem;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.small-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.small-button {
+  font-size: 1rem;
+  border: none;
+  background-color: #95a5a6;
+  color: white;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+
+}

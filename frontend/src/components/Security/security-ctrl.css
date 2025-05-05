@@ -1,0 +1,80 @@
+.security-panel {
+    width: auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    margin: 15px 0;
+  }
+  
+  .security-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .security-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .security-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .center {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .door-button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .door-button.open {
+    background-color: #4caf50;
+  }
+  
+  .door-button.closed {
+    background-color: #f44336;
+  }
+  
+  .log-label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .log-time {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .motion-status {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .motion-on {
+    color: #ff9800;
+  }
+  
+  .motion-off {
+    color: #999;
+  }
+  
+  .motion-time {
+    font-size: 13px;
+    color: #666;
+  }
+  
